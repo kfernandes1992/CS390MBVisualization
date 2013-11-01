@@ -1,5 +1,5 @@
 //
-//  com_Erik_Risinger_DataVizViewController.h
+//  DataTableViewController.h
 //  Data visualization
 //
 //  Created by Erik Risinger on 11/1/13.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface com_Erik_Risinger_DataVizViewController : UIViewController
+@interface DataTableViewController : UITableViewController
+
+@property(nonatomic, strong) NSMutableArray *visualizations;
 
 @end

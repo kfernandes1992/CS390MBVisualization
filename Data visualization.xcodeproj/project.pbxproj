@@ -15,13 +15,14 @@
 		934FC72218245AC60055E0F6 /* com_Erik_Risinger_DataVizAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 934FC72118245AC60055E0F6 /* com_Erik_Risinger_DataVizAppDelegate.m */; };
 		934FC72518245AC60055E0F6 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934FC72318245AC60055E0F6 /* Main_iPhone.storyboard */; };
 		934FC72818245AC60055E0F6 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934FC72618245AC60055E0F6 /* Main_iPad.storyboard */; };
-		934FC72B18245AC60055E0F6 /* com_Erik_Risinger_DataVizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 934FC72A18245AC60055E0F6 /* com_Erik_Risinger_DataVizViewController.m */; };
 		934FC72D18245AC60055E0F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934FC72C18245AC60055E0F6 /* Images.xcassets */; };
 		934FC73418245AC60055E0F6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934FC73318245AC60055E0F6 /* XCTest.framework */; };
 		934FC73518245AC60055E0F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934FC71118245AC60055E0F6 /* Foundation.framework */; };
 		934FC73618245AC60055E0F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934FC71518245AC60055E0F6 /* UIKit.framework */; };
 		934FC73E18245AC60055E0F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 934FC73C18245AC60055E0F6 /* InfoPlist.strings */; };
 		934FC74018245AC60055E0F6 /* Data_visualizationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 934FC73F18245AC60055E0F6 /* Data_visualizationTests.m */; };
+		934FC74B18245B220055E0F6 /* DataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 934FC74A18245B220055E0F6 /* DataTableViewController.m */; };
+		934FC74E1824625C0055E0F6 /* VisualizationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 934FC74D1824625C0055E0F6 /* VisualizationCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +48,16 @@
 		934FC72118245AC60055E0F6 /* com_Erik_Risinger_DataVizAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_Erik_Risinger_DataVizAppDelegate.m; sourceTree = "<group>"; };
 		934FC72418245AC60055E0F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		934FC72718245AC60055E0F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		934FC72918245AC60055E0F6 /* com_Erik_Risinger_DataVizViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_Erik_Risinger_DataVizViewController.h; sourceTree = "<group>"; };
-		934FC72A18245AC60055E0F6 /* com_Erik_Risinger_DataVizViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_Erik_Risinger_DataVizViewController.m; sourceTree = "<group>"; };
 		934FC72C18245AC60055E0F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		934FC73218245AC60055E0F6 /* Data visualizationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Data visualizationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		934FC73318245AC60055E0F6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		934FC73B18245AC60055E0F6 /* Data visualizationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Data visualizationTests-Info.plist"; sourceTree = "<group>"; };
 		934FC73D18245AC60055E0F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		934FC73F18245AC60055E0F6 /* Data_visualizationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Data_visualizationTests.m; sourceTree = "<group>"; };
+		934FC74918245B220055E0F6 /* DataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTableViewController.h; sourceTree = "<group>"; };
+		934FC74A18245B220055E0F6 /* DataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTableViewController.m; sourceTree = "<group>"; };
+		934FC74C1824625C0055E0F6 /* VisualizationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualizationCell.h; sourceTree = "<group>"; };
+		934FC74D1824625C0055E0F6 /* VisualizationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisualizationCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +120,11 @@
 				934FC72018245AC60055E0F6 /* com_Erik_Risinger_DataVizAppDelegate.h */,
 				934FC72118245AC60055E0F6 /* com_Erik_Risinger_DataVizAppDelegate.m */,
 				934FC72318245AC60055E0F6 /* Main_iPhone.storyboard */,
+				934FC74918245B220055E0F6 /* DataTableViewController.h */,
+				934FC74A18245B220055E0F6 /* DataTableViewController.m */,
+				934FC74C1824625C0055E0F6 /* VisualizationCell.h */,
+				934FC74D1824625C0055E0F6 /* VisualizationCell.m */,
 				934FC72618245AC60055E0F6 /* Main_iPad.storyboard */,
-				934FC72918245AC60055E0F6 /* com_Erik_Risinger_DataVizViewController.h */,
-				934FC72A18245AC60055E0F6 /* com_Erik_Risinger_DataVizViewController.m */,
 				934FC72C18245AC60055E0F6 /* Images.xcassets */,
 				934FC71818245AC60055E0F6 /* Supporting Files */,
 			);
@@ -254,9 +259,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				934FC74E1824625C0055E0F6 /* VisualizationCell.m in Sources */,
 				934FC72218245AC60055E0F6 /* com_Erik_Risinger_DataVizAppDelegate.m in Sources */,
+				934FC74B18245B220055E0F6 /* DataTableViewController.m in Sources */,
 				934FC71E18245AC60055E0F6 /* main.m in Sources */,
-				934FC72B18245AC60055E0F6 /* com_Erik_Risinger_DataVizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
