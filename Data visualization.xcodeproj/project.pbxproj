@@ -26,7 +26,7 @@
 		CEC76BC51825A90C00CC8C67 /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC76BC41825A90C00CC8C67 /* libCorePlot-CocoaTouch.a */; };
 		CEC76BC71825AA2F00CC8C67 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC76BC61825AA2E00CC8C67 /* QuartzCore.framework */; };
 		CEC76BCA1825B47900CC8C67 /* CPGrapher.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC76BC91825B47900CC8C67 /* CPGrapher.m */; };
-		CEC76BCD1825B99500CC8C67 /* CPTCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC76BCC1825B99500CC8C67 /* CPTCell.m */; };
+		CEC76BD01825DB9800CC8C67 /* CPTGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC76BCF1825DB9800CC8C67 /* CPTGraphView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,8 +144,8 @@
 		CEC76BC61825AA2E00CC8C67 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CEC76BC81825B47900CC8C67 /* CPGrapher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPGrapher.h; sourceTree = "<group>"; };
 		CEC76BC91825B47900CC8C67 /* CPGrapher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPGrapher.m; sourceTree = "<group>"; };
-		CEC76BCB1825B99500CC8C67 /* CPTCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTCell.h; sourceTree = "<group>"; };
-		CEC76BCC1825B99500CC8C67 /* CPTCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTCell.m; sourceTree = "<group>"; };
+		CEC76BCE1825DB9800CC8C67 /* CPTGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGraphView.h; sourceTree = "<group>"; };
+		CEC76BCF1825DB9800CC8C67 /* CPTGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTGraphView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,8 +215,8 @@
 				934FC74A18245B220055E0F6 /* DataTableViewController.m */,
 				934FC74C1824625C0055E0F6 /* VisualizationCell.h */,
 				934FC74D1824625C0055E0F6 /* VisualizationCell.m */,
-				CEC76BCB1825B99500CC8C67 /* CPTCell.h */,
-				CEC76BCC1825B99500CC8C67 /* CPTCell.m */,
+				CEC76BCE1825DB9800CC8C67 /* CPTGraphView.h */,
+				CEC76BCF1825DB9800CC8C67 /* CPTGraphView.m */,
 				934FC72618245AC60055E0F6 /* Main_iPad.storyboard */,
 				CEC76BC81825B47900CC8C67 /* CPGrapher.h */,
 				CEC76BC91825B47900CC8C67 /* CPGrapher.m */,
@@ -452,10 +452,10 @@
 			files = (
 				934FC74E1824625C0055E0F6 /* VisualizationCell.m in Sources */,
 				934FC72218245AC60055E0F6 /* com_Erik_Risinger_DataVizAppDelegate.m in Sources */,
+				CEC76BD01825DB9800CC8C67 /* CPTGraphView.m in Sources */,
 				CEC76BCA1825B47900CC8C67 /* CPGrapher.m in Sources */,
 				934FC74B18245B220055E0F6 /* DataTableViewController.m in Sources */,
 				934FC71E18245AC60055E0F6 /* main.m in Sources */,
-				CEC76BCD1825B99500CC8C67 /* CPTCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

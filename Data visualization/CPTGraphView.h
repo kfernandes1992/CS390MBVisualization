@@ -1,13 +1,13 @@
 //
-//  CPTCell.m
+//  CPTGraphView.h
 //  Data visualization
 //
 //  Created by Kevin Fernandes on 11/2/13.
 //  Copyright (c) 2013 Erik Risinger. All rights reserved.
 //
 
-#import "CPTCell.h"
+#import <UIKit/UIKit.h>
 
-@implementation CPTCell
-
+@interface CPTGraphView : CPTGraphHostingView
+@property (nonatomic, strong) CPTXYGraph* graph;
 @end
