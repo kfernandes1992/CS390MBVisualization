@@ -11,10 +11,14 @@
 @implementation VisualizationCell
 
 -(void) drawRect:(CGRect)rect{
+    double diameter = 10.0;
+    
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSetLineWidth(context, 2.0);
-    CGContextSetRGBFillColor(context, 0, 0, 1.0, 1.0);
-    CGContextSetRGBStrokeColor(context, 0, 0, 1.0, 1.0);
+//    CGContextSetRGBFillColor(context, 0, 0, 1.0, 1.0);
+    CGContextSetFillColorWithColor(context, [UIColor blueColor].CGColor);
+//    CGContextSetRGBStrokeColor(context, 0, 0, 1.0, 1.0);
+    CGContextSetStrokeColorWithColor(context, [UIColor blueColor].CGColor);
     CGRect circlePoint = (CGRectMake(20.0, 20.0, 10.0, 10.0));
     
     CGContextFillEllipseInRect(context, circlePoint);

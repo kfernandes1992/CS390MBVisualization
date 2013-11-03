@@ -62,6 +62,7 @@
 		934FC74A18245B220055E0F6 /* DataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTableViewController.m; sourceTree = "<group>"; };
 		934FC74C1824625C0055E0F6 /* VisualizationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualizationCell.h; sourceTree = "<group>"; };
 		934FC74D1824625C0055E0F6 /* VisualizationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisualizationCell.m; sourceTree = "<group>"; };
+		938ED65A1826EC4C0093C648 /* libCorePlot-CocoaTouch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libCorePlot-CocoaTouch.a"; sourceTree = "<group>"; };
 		CEC76B761825A90C00CC8C67 /* CorePlot-CocoaTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CorePlot-CocoaTouch.h"; sourceTree = "<group>"; };
 		CEC76B771825A90C00CC8C67 /* CPTAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAnimation.h; sourceTree = "<group>"; };
 		CEC76B781825A90C00CC8C67 /* CPTAnimationOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAnimationOperation.h; sourceTree = "<group>"; };
@@ -196,6 +197,7 @@
 		934FC71018245AC60055E0F6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				938ED65A1826EC4C0093C648 /* libCorePlot-CocoaTouch.a */,
 				CEC76BC61825AA2E00CC8C67 /* QuartzCore.framework */,
 				934FC71118245AC60055E0F6 /* Foundation.framework */,
 				934FC71318245AC60055E0F6 /* CoreGraphics.framework */,
@@ -598,6 +600,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/User/SkyDrive/Documents/SeniorYear/CS390MB/CS390MBVisualization,
+					"/Users/erikrisinger/Dropbox/Coding/Objective-C/Data\\ visualization",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -616,6 +619,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/User/SkyDrive/Documents/SeniorYear/CS390MB/CS390MBVisualization,
+					"/Users/erikrisinger/Dropbox/Coding/Objective-C/Data\\ visualization",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
